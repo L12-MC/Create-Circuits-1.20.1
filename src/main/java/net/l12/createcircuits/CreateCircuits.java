@@ -2,6 +2,7 @@ package net.l12.createcircuits;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.l12.createcircuits.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,6 @@ public class CreateCircuits implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
